@@ -1,0 +1,111 @@
+<script>
+  let pcallCounter = 22;
+  function addPCBContent(name_,
+                        year_,
+                        title_, 
+                        img_, 
+                        author_, 
+                        bib_author_, 
+                        venue_, 
+                        venue_full_name_, 
+                        project_='None', 
+                        paper_='None',
+                        code_='None') {
+    const pcontainer = document.getElementById('pcontent-container'); // Assuming you have a div with this ID to hold the content
+    const phtmlContent = `
+      <div class="row mt-2">
+        <div class="col-md-1 pb-3 text-md-right text-left"></div>
+        <div class="col-md-3 col-sm-11 pb-3 text-md-right text-left">
+          <img class="img-fluid rounded paper-img" src="./materials/concept_figures/${img_}" alt="concept" >
+        </div>
+        <div class="col-md-7 col-sm-12 text-md-left text-center">              
+          <div class="col text-left text-md-left">
+            <h6 class="darkgray"><b>[C${pcallCounter}] ${title_}</b></h6>
+            <h6 class="ssmall authors">${author_.replace('Jaehong Yoon', '<u><b>Jaehong Yoon</b></u>')}</h6>
+            <h6>
+              <span class="conf" style="margin-top: 0em; margin-bottom: 0em">
+                ${venue_} ${year_}</span><br>
+              <a href="${project_}" target="_blank"><b class="badge badge-white">Project Page</b></a>
+              <a href="${paper_}" target="_blank"><b class="badge badge-white">Paper</b></a>
+              <a href="${code_}" target="_blank"><b class="badge badge-white">Code</b></a>
+              <a type="button" class="badge badge-white" href="javascript:void(0)" onclick="show('cbib${title_.replace(/\s+/g, '')}')">
+                Bibtex</a>          
+              <div id="cbib${title_.replace(/\s+/g, '')}" class="popup">
+                @inproceedings{${name_},<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;title={${title_}},<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;author={${bib_author_}},<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;booktitle={${venue_full_name_}},<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;year={${year_}},<br>                
+                }
+              </div>       
+            </h6>
+          </div>                            
+        </div>
+      </div>
+      `;
+    pcallCounter--;
+    pcontainer.innerHTML += phtmlContent;
+  }
+</script>    
+<!-- <script>
+  addPCBContent(name_='wang2024mementos', year_=2024,
+    title_='Mementos: A Comprehensive Benchmark for Multimodal Large Language Model Reasoning over Image Sequences', 
+    img_='mementos.png', 
+    author_='Xiyao Wang, Yuhang Zhou, Xiaoyu Liu, Hongjin Lu, Yuancheng Xu, Feihong He, Jaehong Yoon, Taixi Lu, Gedas Bertasius, Mohit Bansal, Huaxiu Yao, and Furong Huang', 
+    bib_author_='Wang, Xiyao and Zhou, Yuhang and Liu, Xiaoyu and Lu, Hongjin and Xu, Yuancheng and He, Feihong and Yoon, Jaehong and Lu, Taixi and Bertasius, Gedas and Bansal, Mohit and Yao, Huaxiu and Huang, Furong', 
+    venue_='ACL', 
+    venue_full_name_='Annual Meeting of the Association for Computational Linguistics', 
+    project_='https://mementos-bench.github.io/', 
+    paper_='https://arxiv.org/pdf/2401.10529.pdf',
+    code_ ='https://github.com/umd-huang-lab/Mementos'
+  );
+</script> -->
+
+<!-- <h3 class="secfont text-md-left">Publications</h3> -->
+<!-- <p class="ssmall authors">(*: equal contribution)             -->
+  </p><br>
+  <div class="row mt-2">
+    <section id="icml22"></section>     
+    <div class="col-md-1 pb-3 text-md-right text-left"></div>
+    <div class="col-md-3 col-sm-11 pb-3 text-md-right text-left">
+      <img class="img-fluid rounded paper-img" src="./materials/concept_figures/dynas.png" alt="concept" >
+    </div>
+    <div class="col-md-7 col-sm-12 text-md-left text-center">         
+      <div class="col text-left text-md-left">
+        <h6 class="darkgray"><b>Subnet-Aware Dynamic Supernet Training for Neural Architecture Search</b></h6>
+        <p class="ssmall authors"><b><u>Jeimin Jeon</u></b>, Youngmin Oh, Junghyup Lee, Donghyeon Baek, Dohyung Kim, Chanho Eom, and Bumsub Ham</p>
+        <h6 class="conf">CVPR 2025</h6>    
+        <h6 class="black">
+          <a href="" target="_blank"><span class="badge badge-white">Paper</span></a>
+          <a href="" target="_blank"><span class="badge badge-white">Webpage</span></a>
+          <a href="" target="_blank"><span class="badge badge-white">Code</span></a>
+        </h6>            
+      </div>              
+    </div>
+  </div>         
+
+  <div class="row mt-2">
+    <section id="icml22"></section>     
+    <div class="col-md-1 pb-3 text-md-right text-left"></div>
+    <div class="col-md-3 col-sm-11 pb-3 text-md-right text-left">
+      <img class="img-fluid rounded paper-img" src="./materials/concept_figures/grad_quant.png" alt="concept" >
+    </div>
+    <div class="col-md-7 col-sm-12 text-md-left text-center">         
+      <div class="col text-left text-md-left">
+        <h6 class="darkgray"><b>Toward INT4 Fixed-Point Training via Exploring Quantization Error for Gradients</b></h6>
+        <p class="ssmall authors">Dohyung Kim, Junghyup Lee, <b><u>Jeimin Jeon</u></b>, Jaehyeon Moon, and Bumsub Ham</p>
+        <h6 class="conf">ECCV 2024</h6>    
+        <h6 class="black">
+          <a href="https://arxiv.org/abs/2407.12637" target="_blank"><span class="badge badge-white">Paper</span></a>
+          <a href="https://cvlab.yonsei.ac.kr/projects/LBT/" target="_blank"><span class="badge badge-white">Webpage</span></a>
+          <a href="https://github.com/cvlab-yonsei/LBT" target="_blank"><span class="badge badge-white">Code</span></a>
+        </h6>            
+      </div>              
+    </div>
+  </div>  
+            
+
+          </h6>
+      </div>              
+    </div>
+  </div>         
