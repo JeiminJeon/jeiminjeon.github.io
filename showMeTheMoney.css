@@ -281,7 +281,7 @@ html {
   font-weight: 700;
 }
 .profile-img {
-  max-height: 320px;
+  max-height: 200px;
 }
 .wo-linebreak {
   white-space: nowrap;
