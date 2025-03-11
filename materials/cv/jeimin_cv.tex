@@ -1,0 +1,213 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex,colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{pbox}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+%\rhead{~~~~~~~~\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\papername}[1]{``#1''}
+
+\newcommand{\CVPR}{\textit{IEEE Computer Vision and Pattern Recognition}~(\textbf{CVPR})}
+\newcommand{\ECCV}{\textit{European Conference on Computer Vision}~(\textbf{ECCV})}
+\newcommand{\ICCV}{\textit{IEEE International Conference on Computer Vision}~(\textbf{ICCV})}
+\newcommand{\NIPS}{\textit{Conference on Neural Information Processing Systems}~(\textbf{NeurIPS})}
+\newcommand{\AAAI}{\textit{AAAI Conference on Artificial Intelligence}~(\textbf{AAAI})}
+\newcommand{\PR}{\textit{Pattern Recognition}~(\textbf{PR})}
+
+
+\newcommand{\resumeSubheading}[5]{
+  \vspace{3pt}
+  \small
+  \begin{tabular*}{0.97\textwidth}{l l@{\extracolsep{\fill}}r}
+  	~~~~&\textbf{#1} & #2 \\
+  	~~~~&~~#3 & #4 \\
+  	~~~~&~~#5 \\
+  \end{tabular*}
+  \vspace{3pt}
+}
+
+\newcommand{\projectlist}[4]{
+  \vspace{3pt}
+  \small
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	~~\textbf{#1} & #2 \\
+  	~~~~#3 & \\
+    ~~~~#4 \\
+  \end{tabular*}
+  \vspace{3pt}
+}
+
+\newcommand{\worklist}[5]{
+  \vspace{3pt}
+  \small
+  \begin{tabular*}{0.92\textwidth}{l@{\extracolsep{\fill}}r}
+  	~~\textbf{#1}, #2, #3 & #4 \\
+  	~~~~#5 \\
+  \end{tabular*}
+  \vspace{3pt}
+}
+
+
+\begin{document}
+% \footnotesize Last updated: \today 
+% \vspace{0.5cm}
+\footnotesize Last updated: \today
+
+% \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+% hline
+
+\vspace{0.5cm}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Jeimin Jeon}  & jeimin@yonsei.ac.kr\\
+ \small  \color{darkgray}{PhD student @ Computer Vision Lab, Yonsei University} & \href{https://jeiminjeon.github.io/}{https://jeiminjeon.github.io} \\
+\end{tabular*}
+
+
+
+
+
+%-----------Research Interests-----------------
+\section{Research Interests}
+~~~~\textbf{Machine Learning and Computer Vision}\\
+\vspace{-6pt}
+\begin{itemize}
+ \item[-] \small{Efficient Model (\emph{e.g.}, NAS, Quantization, Pruning)} \vspace{-4pt}
+ \item[-] \small{Large Vision-Language Model} \vspace{-4pt}
+ \item[-] \small{Image Generation} \vspace{-4pt}
+\end{itemize}
+
+
+%-----------Education-----------------
+\section{Education}
+\resumeSubheading
+  {Yonsei University}{(Mar. 2022 -- Present)}
+  {\textbf{Ph.D. student}}{}
+  {\textit{Advisor}: Prof. Bumsub Ham}
+
+\resumeSubheading
+  {Yonsei University}{(Mar. 2016 -- Feb. 2022)}
+  {\textbf{B.S.} in Electrical and Electronic Engineering}{}
+  {GPA: 4.01/4.3, \textit{Graduated magna cum laude (Top 3\%)}}
+
+
+%%-----------Publications-----------------
+\section{Publications}
+% ~~~~$*$ indicates equal contribution.
+\begin{enumerate}
+  \item	\small \underline{\textbf{Jeimin Jeon}}, Youngmin Oh, Junghyup Lee, Donghyeon Baek, Dohyung Kim, Chanho Eom, and Bumsub Ham,~\papername{Subnet-Aware Dynamic Supernet Training for Neural Architecture Search},~\CVPR, 2025.
+  \item	\small Dohyung Kim, Junghyup Lee, \underline{\textbf{Jeimin Jeon}}, Jaehyeon Moon, and Bumsub Ham,~\papername{Toward INT4 Fixed-Point Training via Exploring Quantization Error for Gradients},~\ECCV, 2024.
+
+\end{enumerate}
+
+
+%%-----------Experiences-----------------
+\section{Experiences}
+\begin{itemize}
+  \item[-] \textbf{Peer-review Activity} 
+  \\
+  \vspace{5pt}
+  \begin{tabular*}{0.25\textwidth}{l@{\extracolsep{\fill}}l}
+  	~~CVPR & 2024,2025 \\
+  	~~ECCV & 2024 \\
+  	~~ICCV & 2025 \\
+  \end{tabular*}
+
+%  \item[-] \textbf{Talk}
+%  \\
+%  \vspace{5pt}
+%  \worklist
+%  	{2022 Korean AI Association \& Naver Fall Joint Conference}{Seoul}{South Korea}{(Nov.2022)}
+%  	{ALIFE: Adaptive Logit Regularizer and Feature Replay for Incremental Semantic Segmentation}
+
+  \item[-] \textbf{Teaching Assistant}
+  \\
+  \vspace{2pt}
+  \begin{tabular*}{0.5\textwidth}{l@{\extracolsep{\fill}}}
+  	~~Deep Learning Lab (EEE4423): 2022-1, 2024-1, 2025-1 \\
+  	~~Digital Image Processing (EEE5320): 2023-2 \\
+  	~~Electrical and Electronic Engineering 101 (EEE2113): 2023-1 \\
+  	~~SW Programming (YCS-1002): 2021-1
+  \end{tabular*}
+\end{itemize}
+
+
+%%-----------Projects-----------------
+\section{Projects}
+\projectlist
+  {\pbox{25cm}{Development of Edge AI Semiconductor IP}}{(Aug. 2023 -- Present)}
+  {Ministry of SMEs and Startups (MSS)}
+  {\begin{tabular*}{0.5\textwidth}{l@{\extracolsep{\fill}}}
+    ~~- Developed quantization and pruning algorithms for In-Memory Computing (IMC) chips. \\
+  	~~- Collaborated with hardware teams for efficient HW-SW co-design. \\
+  	~~- Built deep learning models for circuit performance prediction and optimization.\\
+  \end{tabular*}}
+  
+\projectlist
+  {\pbox{25cm}{Development of Fundamental Technology and Integrated Solution for \\Next-Generation Automatic Artificial Intelligence System}}{(Apr. 2022 -- Jul. 2023)}
+  {Institute for Information \& Communications Technology Promotion (IITP)}
+  {\begin{tabular*}{0.5\textwidth}{l@{\extracolsep{\fill}}}
+    ~~- Developed neural architecture search (NAS) algorithms for CNNs, ViTs, and quantized models. \\
+  	~~- Designed Automatic Loss Function Search algorithms for adaptive optimization. \\
+  	~~- Implemented low-bit training techniques for efficient deep learning model training.\\
+  \end{tabular*}}
+
+  % \clearpage
+\section{Patents}
+\subsection*{International}
+\begin{itemize}
+  \item[-]	\small DYNAMIC SUPERNET LEARNING APPARATUS AND METHOD FOR NEURAL ARCHITECTURE SEARCH \\
+  \footnotesize  \textcolor{gray}{US18799660, Aug. 2024 (Application)}
+\end{itemize}
+
+\subsection*{Domestic}
+\begin{itemize}
+  \item[-]	\small Dynamic Supernet Learning Apparatus and Method for Neural Architecture Search \\
+  \footnotesize  \textcolor{gray}{10-2024-0100942, Jul. 2024 (Application)}
+  \item[-] \small Quantization-Aware Training Apparatus and Method \\
+  \footnotesize  \textcolor{gray}{10-2023-0049837, Apr. 2023 (Application)}
+\end{itemize}
+
+\end{document}
