@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  11 MAR 2025 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.8)  11 MAR 2025 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/niddl/iCloudDrive/대학원/gitio/cv/jeimin_cv.tex
-(c:/Users/niddl/iCloudDrive/대학원/gitio/cv/jeimin_cv.tex
+**c:/Users/niddl/iCloudDrive/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.tex
+(c:/Users/niddl/iCloudDrive/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -277,31 +277,24 @@ Package hyperref Info: Link coloring ON on input line 93.
 \openout3 = `jeimin_cv.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 95.
+(Font)              <9> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 95.
+(Font)              <6> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 95.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 95.
+(Font)              <5> on input line 103.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 103.
  (c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 120.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 120.
+(Font)              <7> on input line 128.
 
-Overfull \hbox (4.34917pt too wide) in alignment at lines 160--165
+Overfull \hbox (130.18275pt too wide) in alignment at lines 158--158
 []
  []
 
 
-Overfull \hbox (130.18275pt too wide) in alignment at lines 178--178
-[]
- []
-
-
-Overfull \hbox (161.51599pt too wide) in alignment at lines 187--187
+Overfull \hbox (161.51599pt too wide) in alignment at lines 167--167
 []
  []
 
@@ -314,27 +307,39 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./jeimin_cv.aux)
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4.34917pt too wide) in alignment at lines 207--212
+[]
+ []
+
+
+
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+
+[2] (./jeimin_cv.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `jeimin_cv.out' has not changed.
-(rerunfilecheck)             Checksum: 4B104D1066032245ACF3669CEC147059;586.
+(rerunfilecheck)             Checksum: DEAF5AC93ACA8906AA41A75D8A6D9486;586.
  ) 
 Here is how much of TeX's memory you used:
- 10337 strings out of 473201
- 158863 string characters out of 5720300
- 589360 words of memory out of 5000000
- 33467 multiletter control sequences out of 15000+600000
- 564989 words of font info for 60 fonts, out of 8000000 for 9000
+ 10335 strings out of 473201
+ 158889 string characters out of 5720300
+ 588360 words of memory out of 5000000
+ 33463 multiletter control sequences out of 15000+600000
+ 564267 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,337b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on jeimin_cv.pdf (1 page, 84263 bytes).
+ 75i,13n,79p,368b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on jeimin_cv.pdf (2 pages, 113216 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1741623348.2806 "c:/Users/niddl/iCloudDrive/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.tex" "jeimin_cv.pdf" "jeimin_cv" 1741623349.18657 0
-  "c:/Users/niddl/iCloudDrive/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.tex" 1741623347 6791 74f7ab63825493535e7e937617c49937 ""
+["pdflatex"] 1741701085.28128 "c:/Users/niddl/iCloudDrive/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.tex" "jeimin_cv.pdf" "jeimin_cv" 1741701086.15691 0
+  "c:/Users/niddl/iCloudDrive/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.tex" 1741701084 6794 bd0b41e328ee4d0bc0bd648c0ffaad30 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1741360158 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1741358892 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1741358892 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -81,9 +81,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1741363664 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1741363877 3352884 32d072cbb690cf36f8c7936e37e73e52 ""
   "c:/texlive/2024/texmf.cnf" 1741363645 713 e69b156964470283e0530f5060668171 ""
-  "jeimin_cv.aux" 1741623349 809 f0332c9a8909d50400ab87f46495034d "pdflatex"
-  "jeimin_cv.out" 1741623349 586 4b104d1066032245acf3669cec147059 "pdflatex"
-  "jeimin_cv.tex" 1741623347 6791 74f7ab63825493535e7e937617c49937 ""
+  "jeimin_cv.aux" 1741701086 809 5c1c70aa7c1969c74254dc648a211ba9 "pdflatex"
+  "jeimin_cv.out" 1741701086 586 deaf5ac93aca8906aa41a75d8a6d9486 "pdflatex"
+  "jeimin_cv.tex" 1741701084 6794 bd0b41e328ee4d0bc0bd648c0ffaad30 ""
   (generated)
   "jeimin_cv.aux"
   "jeimin_cv.log"
