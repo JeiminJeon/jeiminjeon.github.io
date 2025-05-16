@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  31 MAR 2025 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  16 MAY 2025 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,24 +271,26 @@ Package hyperref Info: Link coloring ON on input line 93.
 \openout3 = `jeimin_cv.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 103.
+(Font)              <10.95> on input line 103.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 103.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 103.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 103.
  (/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 128.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 128.
 
-Overfull \hbox (130.18275pt too wide) in alignment at lines 158--158
+Overfull \hbox (130.18275pt too wide) in alignment at lines 166--166
 []
  []
 
 
-Overfull \hbox (161.51599pt too wide) in alignment at lines 167--167
+Overfull \hbox (161.51599pt too wide) in alignment at lines 175--175
 []
  []
 
@@ -300,7 +302,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.34917pt too wide) in alignment at lines 210--215
+Overfull \hbox (4.34917pt too wide) in alignment at lines 218--223
 []
  []
 
@@ -318,18 +320,18 @@ Package rerunfilecheck Info: File `jeimin_cv.out' has not changed.
 (rerunfilecheck)             Checksum: DEAF5AC93ACA8906AA41A75D8A6D9486;586.
  ) 
 Here is how much of TeX's memory you used:
- 10047 strings out of 474116
- 158270 string characters out of 5732612
+ 10055 strings out of 474116
+ 158378 string characters out of 5732612
  1950187 words of memory out of 5000000
- 32284 multiletter control sequences out of 15000+600000
- 563499 words of font info for 57 fonts, out of 8000000 for 9000
+ 32289 multiletter control sequences out of 15000+600000
+ 564520 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,79p,284b,548s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/jeimin/Library/Mobile Documents/com~apple~CloudDocs/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.pdf" (2 pages, 113666 bytes).
+ 75i,13n,79p,284b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "/Users/jeimin/Library/Mobile Documents/com~apple~CloudDocs/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.pdf" (2 pages, 103647 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
