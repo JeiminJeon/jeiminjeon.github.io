@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  16 MAY 2025 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  26 JUN 2025 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -302,7 +302,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.34917pt too wide) in alignment at lines 218--223
+Overfull \hbox (4.34917pt too wide) in alignment at lines 219--224
 []
  []
 
@@ -328,7 +328,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,284b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "/Users/jeimin/Library/Mobile Documents/com~apple~CloudDocs/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.pdf" (2 pages, 103647 bytes).
+Output written on "/Users/jeimin/Library/Mobile Documents/com~apple~CloudDocs/대학원/gitio/jeiminjeon.github.io/materials/cv/jeimin_cv.pdf" (2 pages, 103598 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream
